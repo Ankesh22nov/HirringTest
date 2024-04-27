@@ -1,0 +1,215 @@
+/* Custom CSS Styles */
+
+::-webkit-scrollbar{
+  width: 0%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+section {
+  margin-bottom: 5%;
+}
+.navbar {
+  background-color: transparent; /* Transparent navbar */
+  width: 100%;
+  z-index: 1000;
+  color: white;
+  position: fixed;
+  top: 2px;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff; /* Set text color to white */
+}
+
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-position: top;
+  color: white;
+  transition: background-image 0.5s ease; /* Add transition for background image */
+  background-attachment: fixed;
+  box-shadow:inset 20em -6em 11em 2em black;
+}
+
+.hero-content {
+  max-width: 650px;
+  margin: 5%;
+  padding: 20px;
+}
+.readMore {
+  width: 30%;
+  padding: 5px 20px;
+}
+.button-container {
+  margin-top: 20px;
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+}
+.button-container button {
+  padding: 10px 15px;
+  border-radius: 100%;
+  background-color: transparent;
+}
+button {
+  padding: 8px 15px;
+  margin: 0 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555555e1;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20%;
+}
+.hero-content p {
+  font-size: 1.5rem;
+}
+.gallery_section {
+  padding: 5% 10%;
+}
+.gallery-item {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  height: 50%;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+  object-fit: contain;
+}
+.gallery-item img:hover {
+  transform: scale(0.9);
+  border-radius: 5%;
+}
+/* testimonial */
+
+.testimonial {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial :nth-child(2) {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+.testimonial-text {
+  padding-right: 20px;
+}
+
+.testimonial-text p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.testimonial-text span {
+  font-weight: bold;
+}
+.testimonial-image {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.pre_next {
+  justify-content: space-between !important;
+}
+.Previous,
+.next {
+  position: relative;
+  border-radius: 30px;
+  padding: 2%;
+  margin: 5% 0;
+  background-color: black !important;
+}
+.section4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: url(img/img8.avif);
+  background-position: center;
+  color: black;
+  box-shadow: inset 14em 6em 10em black;
+  background-attachment: fixed;
+}
+.section5{
+  height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.icon-link {
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.icon-link:hover {
+  color: #55acee; /* Change color on hover */
+}
+
+p {
+  margin: 0;
+}
+
+.caro_pre:hover,.caro_next:hover{
+background: transparent;
+}
+
