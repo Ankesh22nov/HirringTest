@@ -145,6 +145,9 @@ button:hover {
   width: 300px;
   height: 400px;
   object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pre_next {
@@ -163,9 +166,9 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: 90vh;
-  background: url(img/img8.avif);
+  background: url(img4.jpg);
   background-position: center;
-  color: black;
+  color: white;
   box-shadow: inset 14em 6em 10em black;
   background-attachment: fixed;
 }

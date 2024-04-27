@@ -14,8 +14,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   document.addEventListener("DOMContentLoaded", function() {
     var currentIndex = 0; // Current index of the active image
     var images = [
-      "img/homeBackground.jpg",
-      "img/img8.jpg",
+      "img2.jpg",
+      "img3.jpg",
     ];
   
     var heroSection = document.querySelector('.hero-section');
