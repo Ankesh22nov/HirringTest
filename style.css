@@ -48,7 +48,7 @@ section {
   color: white;
   transition: background-image 0.5s ease; /* Add transition for background image */
   background-attachment: fixed;
-  box-shadow:inset 20em -6em 11em 2em black;
+  box-shadow:inset 10vw -11vw 14vw 5vw #3f606de0;
 }
 
 .hero-content {
@@ -105,10 +105,7 @@ button:hover {
   transition: transform 0.3s ease;
   object-fit: contain;
 }
-.gallery-item img:hover {
-  transform: scale(0.9);
-  border-radius: 5%;
-}
+
 /* testimonial */
 
 .testimonial {
@@ -216,3 +213,13 @@ p {
 background: transparent;
 }
 
+.contact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.contact form{
+  width: 60%;
+}
